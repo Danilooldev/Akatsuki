@@ -3,17 +3,223 @@
 body{
     
     display: flex;
-    width: 98vh;
-    height: 97vh;
-    background-image: url('imagens/akatsuki-g.jpg');
-    background-position: center center;
+    width:1280;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-image: url('https://i0.wp.com/narutokonoha.com/wp-content/uploads/2019/11/Filme-A-Cria%C3%A7%C3%A3o-da-Akatsuki-Dublado-Portugu%C3%AAs.jpg?fit=1920%2C1080&ssl=1'); 
 }
-div.personagens{
-    padding: 10px;
+div.menu {
+    width:300px ;
+    height:900px ;
     display: flex;
-    width: 100px;
-    height: 100px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+div.personagens{
+    width: 160px;
+    height: 60px;
+    border: 2px black solid;
+    border-radius: 20px;
+    margin: 5px;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    -webkit-opacity: 0.7;
+    position: relative;
+}
+
+
+div#personagem1{
+    background-image: url('https://play-lh.googleusercontent.com/rYslV91vNM2LCmUDcxalkoVTIlcHpJN04dpvrh6ZVIefaIFTUuhW8uAYB45l5uF8VgA=s256-rw');
+    background-position: center ;
+    background-size: 180px;
     
-   
+}
+div#personagem1:hover{
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    border-color: red;
+}
+
+div#kakuzu{
+    background-image: url(' https://cdn130.picsart.com/ea7d5379-bb73-499a-9ece-01c2f05942dd/388037891029201.jpg?type=webp&to=crop&r=256');
+    background-position: center ;
+    background-size: 220px;
+}
+
+div#kakuzu:hover{
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    border: 3px rgb(0, 121, 6) solid;
+}
+
+div#kisami{
+    background-image: url(' https://c-cl.cdn.smule.com/rs-s-sf-1/arr/ac/b6/48d14fec-77ec-46db-8d5f-4ff0c0cf818f.jpg');
+    background-position: center ;
+    background-size: 180px;
+}
+
+div#kisami:hover{
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    border: 3px rgb(33, 67, 255) solid;
+}
+
+div#hidan{
+    background-image: url(' https://cdn140.picsart.com/322720160002201.jpg?type=webp&to=crop&r=256');
+    background-position: center ;
+    background-size: 172px;
+}
+
+div#hidan:hover{
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    border: 3px rgb(134, 60, 0) solid;
+}
+
+div#deidara{
+    background-image: url(' https://c-cl.cdn.smule.com/rs-s-sf-4/arr/fd/e2/0bd50f94-f795-4176-a20f-071ed7ff5cc5.jpg');
+    background-position: center top;
+    background-size: 172px;
+}
+
+div#deidara:hover{
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    border: 3px rgb(251, 255, 0) solid;
+}
+
+div#konan{
+    background-image: url(' https://i.pinimg.com/474x/c3/5b/64/c35b64fe3c584a5a8ac903027d4a94f1.jpg');
+    background-position: center ;
+    background-size: 180px;
+}
+
+div#konan:hover{
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    border: 3px rgb(37, 0, 97) solid;
+}
+
+div#pain{
+    background-image: url(' https://c-cl.cdn.smule.com/rs-s93/arr/82/07/ba5f899a-1791-49d3-b2e0-60a40b499ad3.jpg');
+    background-position: center ;
+    background-size: 180px;
+}
+
+div#pain:hover{
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    border: 3px rgb(253, 101, 0) solid;
+
+}
+
+div#sasori{
+    background-image: url(' https://static.wikia.nocookie.net/7f423601-ef69-4763-95c7-1538778153e6/scale-to-width/370');
+    background-position: center ;
+    background-size: 250px;
+}
+
+div#sasori:hover{
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    border: 3px red solid;
     
+}
+div#tobi{
+    background-image: url(' https://cdn.domestika.org/c_fill,dpr_auto,f_auto,h_256,pg_1,t_base_params,w_256/v1627764385/avatars/008/111/462/8111462-original.jpg?1627764385');
+    background-position: center ;
+    background-size: 180px;
+}
+
+div#tobi:hover{
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    border: 3px black solid;
+}
+
+div#orochimaru{
+    background-image: url(' https://a.wattpad.com/useravatar/orochimaru-sannin.256.761619.jpg');
+    background-position: center ;
+    background-size: 150px;
+}
+
+div#orochimaru:hover{
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    border: 3px white solid;
+}
+
+div#akatsuki{
+    background-image: url(' https://steamuserimages-a.akamaihd.net/ugc/1756936666324564595/9A0CBD735A5A96D9CE2B373AC51D9AAB0659B2AC/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+    background-position: center ;
+    background-size: 150px;
+}
+
+div#akatsuki:hover{
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    border: 3px white solid;
+}
+
+div.desc{
+    width: 1700px;
+    height: 900px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+div.descricao{
+    background-color: rgba(255, 217, 0, 0.034);
+    width: 300px;
+    height: 400px;
+    border: 3px rgb(0, 0, 0) solid;
+    position: absolute;
+    display: none;
+}
+div.descricao:hover{
+    background-color: rgba(250, 188, 17, 0.966);
+    
+}
+
+p{
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: justify;
+    margin: 10px;
+
 }
