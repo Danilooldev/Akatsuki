@@ -208,7 +208,7 @@ div.descricao{
     height: 400px;
     border: 3px rgb(0, 0, 0) solid;
     position: absolute;
-    display: none;
+    display: block;
 }
 div.descricao:hover{
     background-color: rgba(250, 188, 17, 0.966);
