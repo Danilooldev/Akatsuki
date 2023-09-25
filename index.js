@@ -2,7 +2,20 @@ function bgChange(personagemId, novaImagem) {
     var personagem = document.getElementById(personagemId);
     document.body.style.backgroundImage =`url('${novaImagem}')`;
 
-}
+    
+var container = document.getElementById('disitachi');
+personagem.addEventListener('click', function() {
+    
+  if(container.style.display === 'none') {
+      container.style.display = 'block';
+  } else {
+      container.style.display = 'block';
+  }
+});
+  }
+
+
+
 
 
 document.getElementById("personagem1").addEventListener("click", function() {
@@ -17,7 +30,7 @@ document.getElementById("kakuzu").addEventListener("click", function() {
 
 document.getElementById("kisami").addEventListener("click", function() {
     bgChange("kisami", "https://images3.alphacoders.com/665/665366.jpg");
-    document.getElementById("paragrafo").innerHTML = "Kisame Hoshigaki, o Monstro da Névoa Oculta, foi um nukenin de Rank S que fazia parte dos Sete Espadachins da Névoa de Kirigakure e foi parceiro de Itachi Uchiha dentro da organização Akatsuki. Como um dos mais fortes membros da Akatsuki, Kisame tinha um gosto formidável em lutar. No entanto, ele geralmente era incapaz de terminar suas batalhas, sendo corriqueiramente interrompido por Itachi, que só lutava quando necessário";
+    document.getElementById("paragrafo").innerHTML = "Kisame Hoshigaki, o Monstro da Névoa Oculta, foi um nukenin de Rank S que fazia parte dos Sete Espadachins da Névoa de Kirigakure e foi parceiro de Itachi Uchiha dentro da organização Akatsuki. Como um dos mais fortes membros da Akatsuki, Kisame tinha um gosto formidável em lutar. No entanto, ele geralmente era incapaz de terminar suas batalhas, sendo corriqueiramente interrompido por Itachi, que só lutava quando necessário.";
 })
 
 document.getElementById("hidan").addEventListener("click", function() {
@@ -37,7 +50,7 @@ document.getElementById("konan").addEventListener("click", function() {
 
 document.getElementById("pain").addEventListener("click", function() {
     bgChange("pain", "https://motionbgs.com/media/1292/pain-nagato.jpg");
-    document.getElementById("paragrafo").innerHTML = "Nagato, foi um shinobi de Amegakure descendente do clã Uzumaki. Órfão pelos conflitos da Segunda Guerra Mundial Shinobi, Nagato se uniu de seus companheiros órfãos de guerra, Yahiko e Konan, para formar a Akatsuki, uma organização cujo objetivo era cessar os ciclos infinitos de ódio e morte. Nagato sonhava em trazer paz ao mundo violento dos shinobi. Os três foram alunos de Jiraiya durante três anos, nos quais o Sannin ensinou ninjutsu a eles para que sustentassem seus objetivos, protegessem uns aos outros e para que Nagato controlasse seus poderes, uma vez que ele possuia o Rinnegan, os olhos do Eremita dos Seis Caminhos. Depois de seu melhor amigo e líder, Yahiko, ser traído e morto por pregar a paz, Nagato se convenceu de que o mundo nunca iria parar de lutar voluntariamente a menos que ele conhecesse o que é a verdadeira dor. Por conta disso, ele adotou o pseudônimo de Pain";
+    document.getElementById("paragrafo").innerHTML = "Nagato, foi um shinobi de Amegakure descendente do clã Uzumaki. Órfão pelos conflitos da Segunda Guerra Mundial Shinobi, Nagato se uniu de seus companheiros órfãos de guerra, Yahiko e Konan, para formar a Akatsuki, uma organização cujo objetivo era cessar os ciclos infinitos de ódio e morte. Nagato sonhava em trazer paz ao mundo violento dos shinobi. Os três foram alunos de Jiraiya durante três anos, nos quais o Sannin ensinou ninjutsu a eles para que sustentassem seus objetivos, protegessem uns aos outros e para que Nagato controlasse seus poderes, uma vez que ele possuia o Rinnegan, os olhos do Eremita dos Seis Caminhos. Depois de seu melhor amigo e líder, Yahiko, ser traído e morto por pregar a paz, Nagato se convenceu de que o mundo nunca iria parar de lutar voluntariamente a menos que ele conhecesse o que é a verdadeira dor. Por conta disso, ele adotou o pseudônimo de Pain.";
 })
 
 document.getElementById("sasori").addEventListener("click", function() {
