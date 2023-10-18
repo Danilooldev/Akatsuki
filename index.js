@@ -4,14 +4,12 @@ function bgChange(personagemId, novaImagem) {
 
     
 var container = document.getElementById('disitachi');
-personagem.addEventListener('click', function() {
     
   if(container.style.display === 'none') {
       container.style.display = 'block';
   } else {
       container.style.display = 'block';
   }
-});
   }
 
 
